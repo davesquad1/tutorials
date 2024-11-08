@@ -1,4 +1,4 @@
-class Product1 {
+class Coffee {
     name;
     price;    
     constructor(name, price) {
@@ -15,7 +15,7 @@ class Product1 {
     }
   }
   
-  const americano = new Product1(
+  const americano = new Coffee(
     ['Americano',
      'espresso',
      'latte',
