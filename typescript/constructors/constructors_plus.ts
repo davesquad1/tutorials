@@ -1,9 +1,12 @@
 class Coffee {
     name;
     price;    
-    constructor(name, price) {
+    origin;
+
+    constructor(name, price, origin) {
       this.name = name;
       this.price = price;
+      this.origin = origin;
     }
   
     getName() {
@@ -13,9 +16,13 @@ class Coffee {
     getPrice() {
       return this.price;
     }
+
+    getOrigin() {
+      return this.origin;
+    }
   }
   
-  const americano = new Coffee(
+  const coffee = new Coffee(
     ['Americano',
      'espresso',
      'latte',
@@ -25,7 +32,12 @@ class Coffee {
      '399',
      '499', 
      '499'
+    ],
+    ['Columbia',
+     'Italy',
+     'France',
+     'Italy'
     ]
 );
 
-console.log(americano.getName(), americano.getPrice());
+console.log(coffee.getName(), coffee.getPrice(), coffee.getOrigin());
