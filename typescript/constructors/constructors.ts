@@ -1,12 +1,12 @@
 class Product {
-    name: string;
-    price: number;
-    constructor(name: string, price: number) {
+    name;
+    price;
+    constructor(name, price) {
       this.name = name;
       this.price = price;
     }
   
-    getName(): string {
+    getName() {
       return this.name;
     }
   }
