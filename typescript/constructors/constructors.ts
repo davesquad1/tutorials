@@ -9,9 +9,14 @@ class Product {
     getName() {
       return this.name;
     }
+
+    getPrice() {
+      return this.price;
+    }
   }
   
   const espresso = new Product('Espresso', 399);
   
    // 'Espresso'
   console.log(espresso.getName());
+  console.log(espresso.getPrice());
