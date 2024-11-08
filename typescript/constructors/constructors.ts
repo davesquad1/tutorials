@@ -18,5 +18,4 @@ class Product {
   const espresso = new Product('Espresso', 399);
   
    // 'Espresso'
-  console.log(espresso.getName());
-  console.log(espresso.getPrice());
+  console.log(espresso.getName(), espresso.getPrice());
