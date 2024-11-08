@@ -1,6 +1,6 @@
 // Creating the Vehicle class
 class Vehicle {
-    vehicle_type: string;
+    vehicle_type
 
     // Defining the vehicle_type property
     constructor() {
